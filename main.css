@@ -107,6 +107,16 @@ body {
     background: ;
 }
 
+.projects .first-image,
+.projects .second-image {
+    border-radius: 5%;
+    max-width: 100%;
+}
+
+.projects .second-image {
+    height: 296px;
+}
+
 .skills {
     padding: 80px 0;
 }
