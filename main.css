@@ -70,8 +70,14 @@ body {
     background: ;
 }
 
-.skills {}
+.skills {
+    padding: 80px 0;
+}
 
-.contact {}
+.contact {
+    padding: 80px 0;
+}
 
-.footer {}
+.footer {
+    padding: 25px 0;
+}
