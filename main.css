@@ -50,6 +50,13 @@ body {
     background-color: #fff;
 }
 
+.navigation {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+
 .container {
     /*    background: url('river.jpg');*/
     background: url(river.jpg) no-repeat 50%;
