@@ -42,6 +42,9 @@
     -o-padding-end: 0px;
 }
 
+
+/*general styles*/
+
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -50,89 +53,173 @@ body {
     background-color: #fff;
 }
 
-.navigation {
-    display: block!important;
-    height: auto!important;
+
+/*header styles*/
+
+header {
+    display: block;
+    height: auto;
     padding-bottom: 0;
-    overflow: visible!important;
-    margin: 0px 0px 30px 0px;
-    padding: 5px 0px 0px 0px;
+    overflow: visible;
+    margin: 0px;
+    padding: 5px;
     width: 100%;
     border-color: #599a68;
-    background: #874e4c;
-    text-align: center;
+    background: royalblue;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-.navigation ul {
+header h1 {
+    text-align: left;
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    color: white;
+    padding-left: 18px;
+}
+
+header .navigation {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 7px;
+}
+
+header .navigation ul {
     list-style: none;
 }
 
-.navigation li {
+header .navigation li {
     display: inline-block;
     padding: 3px 10px;
 }
 
-.navigation a {
+header .navigation a {
     font-weight: 800;
     color: #b37c57;
 }
 
-.navigation a,
-.navigation a:visited {
+header .navigation a,
+header .navigation a:visited {
     color: #fff;
 }
 
-.navigation a.selected,
-.navigation a:hover {
+header .navigation a.selected,
+header .navigation a:hover {
     color: #b37c57;
 }
 
+
+/*content styles*/
+
 .container {
-    /*    background: url('river.jpg');*/
     background: url(river.jpg) no-repeat 50%;
     background-size: cover;
     background-attachment: fixed;
     padding: 230px 0;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container h2 {
+    color: white;
 }
 
 .about {
-    padding: 110px 0;
-    background:
+    padding: 60px 0;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.about p {
+    margin-bottom: 1rem;
 }
 
 .projects {
-    padding: 80px 0;
-    background: ;
+    padding: 60px 0;
+    background-color: #eee;
+    text-align: center;
+}
+
+.projects h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projects ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.projects li {
+    width: 46%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .projects .first-image,
-.projects .second-image {
-    border-radius: 5%;
+.projects .sec-image {
+    border-radius: 10px;
     max-width: 100%;
-}
-
-.projects .second-image {
-    height: 296px;
+    height: 250px;
 }
 
 .skills {
-    padding: 80px 0;
+    padding: 60px 0;
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+}
+
+.skills ul {
+    text-align: left;
+    list-style: none;
+}
+
+.skills li {
+    margin: 0;
+    padding: 20px 0 20px 84px;
+    list-style: none;
+    background-image: url("check-mark.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
 }
 
 .contact {
-    padding: 80px 0;
+    padding: 60px 0;
+    background: black url("world-laptop.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
 }
+
+.contact h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/*footer styles */
 
 .footer {
     padding: 25px 0;
     color: #bbc;
     font-size: 0.75em;
-    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 168px;
+    width: 40%;
+    text-align: center;
 }
 
 .footer #logo {
@@ -144,4 +231,25 @@ body {
     width: 20px;
     height: 20px;
     margin: 0 5px;
+}
+
+
+/*reposnsive */
+
+@media only screen and (max-width: 800px) {
+    header,
+    .navigation ul {
+        font-size: 9px;
+    }
+    .projects {
+        padding: 0px;
+    }
+    .projects .first-image,
+    .projects .sec-image {
+        height: 190px;
+        padding: 0px;
+    }
+    .skills {
+        width: 90%;
+    }
 }
