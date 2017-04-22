@@ -175,10 +175,12 @@ header .navigation a:hover {
 }
 
 .skills {
-    padding: 60px 0;
+    padding: 266px 0px 263px 90px;
     margin: 0 auto;
     width: 40%;
     text-align: center;
+    /*    margin-bottom: 97px;
+    */
 }
 
 .skills ul {
