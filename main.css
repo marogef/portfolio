@@ -102,6 +102,11 @@ header .navigation li {
 header .navigation a {
     font-weight: 800;
     color: #b37c57;
+    text-decoration: none;
+}
+
+header .navigation a:active {
+    background-color: yellow;
 }
 
 header .navigation a,
@@ -130,6 +135,8 @@ header .navigation a:hover {
 
 .container h2 {
     color: white;
+    font-size: 45px;
+    text-shadow: 2px 2px gray;
 }
 
 .about {
@@ -200,11 +207,13 @@ header .navigation a:hover {
 }
 
 .contact {
-    padding: 60px 0;
-    background: black url("world-laptop.jpg") no-repeat center center fixed;
-    background-size: cover;
+    padding: 60px;
+    /*    background: black url("world-laptop.jpg") no-repeat center center fixed;*/
+    /*    background-size: cover;
+    */
     text-align: center;
-    color: white;
+    color: black;
+    background-color: #eee;
 }
 
 .contact h2 {
@@ -225,15 +234,16 @@ header .navigation a:hover {
     text-align: center;
 }
 
-.footer #logo {
+.contact #logo {
+    padding-top: 2px;
     text-align: center;
     margin: 0;
 }
 
-.footer .social-icon {
+.contact .social-icon {
     width: 20px;
     height: 20px;
-    margin: 0 5px;
+    margin: 18px 9px -28px 9px;
 }
 
 
