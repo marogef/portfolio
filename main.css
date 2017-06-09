@@ -128,7 +128,8 @@ header .navigation a:hover {
     background-attachment: fixed;
     padding: 275px 0;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    position: relative;
+    /*    position: relative;
+    */
     margin-top: 50px;
     text-align: center;
 }
