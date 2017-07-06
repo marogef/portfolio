@@ -124,12 +124,10 @@ header .navigation a:hover {
 
 .container {
     background: url(river.jpg) no-repeat 50%;
-    background-size: cover;
+    background-size: 1300px;
     background-attachment: fixed;
     padding: 275px 0;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    /*    position: relative;
-    */
     margin-top: 50px;
     text-align: center;
 }
@@ -141,9 +139,14 @@ header .navigation a:hover {
 }
 
 .about {
-    padding: 90px 0px 0px 20px;
-    width: 40%;
+    padding: 90px 0px 488px 26px;
+    width: 76%;
     margin: 0px auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
 }
 
 .about p {
@@ -151,10 +154,20 @@ header .navigation a:hover {
 }
 
 .about img {
-    width: 355px;
-    height: 285px;
-    border-radius: 20%;
-    margin: 15px 15px;
+    width: 301px;
+    height: 336px;
+    border-radius: 52%;
+    margin: 0px 70px;
+}
+
+.about .my-pic {
+    width: 50%;
+    float: right;
+}
+
+.about .about-me {
+    width: 45%;
+    float: left;
 }
 
 .projects {
@@ -192,10 +205,11 @@ header .navigation a:hover {
 
 .skills {
     padding: 40px 0px 0px 90px;
-    margin: 0 auto;
-    width: 40%;
-    /*    text-align: center;*/
     margin-bottom: 97px;
+    display: table;
+    table-layout: fixed;
+    width: 90%;
+    text-align: center;
 }
 
 .skills ul {
@@ -207,7 +221,6 @@ header .navigation a:hover {
     margin: 0;
     padding: 20px 0 20px 84px;
     list-style: none;
-    background-image: url("check-mark.png");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40px;
@@ -216,14 +229,28 @@ header .navigation a:hover {
 .skills img {
     width: 84px;
     height: 50px;
-    margin-left: 178px;
+    margin-left: 130px;
+}
+
+.skills .mid-skills {
+    width: 33.33333333%;
+    border: double;
+    display: table-cell;
+}
+
+.skills .mid-skills-two {
+    width: 33.33333333%;
+    border: double;
+    display: table-cell;
+    float: left;
+}
+
+.skills .mid-content {
+    margin: 17px 36px 58px 0px;
 }
 
 .contact {
     padding: 60px;
-    /*    background: black url("world-laptop.jpg") no-repeat center center fixed;*/
-    /*    background-size: cover;
-    */
     text-align: center;
     color: black;
     background-color: #eee;
