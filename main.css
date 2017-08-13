@@ -125,7 +125,7 @@ header .navigation a:hover {
 .container {
     background: url(river.jpg) no-repeat 50%;
     background-size: 1300px;
-    background-attachment: fixed;
+    background-attachment: inherit;
     padding: 275px 0;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
@@ -219,7 +219,7 @@ header .navigation a:hover {
 
 .skills li {
     margin: 0;
-    padding: 20px 0 20px 84px;
+    padding: 20px 0px 20px 84px;
     list-style: none;
     background-repeat: no-repeat;
     background-position: left center;
@@ -297,13 +297,27 @@ header .navigation a:hover {
     .projects {
         padding: 0px;
     }
+    .container {
+        background-attachment: inherit;
+    }
     .projects .first-image,
     .projects .sec-image {
         height: 190px;
         padding: 0px;
     }
     .skills {
+        margin: 50px;
         padding: 0px;
-        width: 90%;
+        width: 98%;
+        padding: 1px 0px 31px 81px;
+    }
+    .skills li {
+        background-position: center;
+    }
+    .skills .mid-content {
+        margin: 12px 33px 57px 0px;
+    }
+    .skills .mid-skills-two {
+        float: none;
     }
 }
