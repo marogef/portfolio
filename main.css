@@ -306,6 +306,9 @@ header .navigation a:hover {
         height: 190px;
         padding: 0px;
     }
+    .about {
+        width: 83%;
+    }
     .about p {
         margin-bottom: 0rem;
     }
