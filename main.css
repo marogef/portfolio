@@ -289,7 +289,7 @@ header .navigation a:hover {
 
 /*reposnsive */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     header,
     .navigation ul {
         font-size: 9px;
@@ -304,6 +304,15 @@ header .navigation a:hover {
     .projects .sec-image {
         height: 190px;
         padding: 0px;
+    }
+    .about p {
+        margin-bottom: 0rem;
+    }
+    .about img {
+        width: 264px;
+        height: 270px;
+        border-radius: 59%;
+        margin: 0px 70px;
     }
     .skills {
         margin: 50px;
