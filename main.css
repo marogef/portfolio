@@ -308,6 +308,9 @@ header .navigation a:hover {
     .about p {
         margin-bottom: 0rem;
     }
+    .about .about-me {
+        margin-bottom: 0rem;
+    }
     .about img {
         width: 264px;
         height: 270px;
