@@ -289,7 +289,7 @@ header .navigation a:hover {
 
 /*reposnsive */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
     header,
     .navigation ul {
         font-size: 9px;
