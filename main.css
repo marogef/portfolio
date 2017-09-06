@@ -45,12 +45,19 @@
 
 /*general styles*/
 
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
+    width:100%;
+    overflow-x:hidden;
 }
 
 
@@ -93,6 +100,9 @@ header .navigation {
 header .navigation ul {
     list-style: none;
 }
+/*header .navigation a:link{*/
+/*    color: white;*/
+/*}*/
 
 header .navigation li {
     display: inline-block;
@@ -101,46 +111,48 @@ header .navigation li {
 
 header .navigation a {
     font-weight: 800;
-    color: #b37c57;
+    /*color: #b37c57;*/
+    color: white;
     text-decoration: none;
 }
 
+/* links */
+
+header .navigation a:link, header .navigation a:visited {
+color: white;
+}
+
+header .navigation a:hover, header .navigation a:focus {
+color: brown;
+}
 header .navigation a:active {
-    background-color: yellow;
+color: white;
 }
 
-header .navigation a,
-header .navigation a:visited {
-    color: #fff;
-}
-
-header .navigation a.selected,
-header .navigation a:hover {
-    color: #b37c57;
-}
-
-
-/*content styles*/
 
 .container {
-    background: url(river.jpg) no-repeat 50%;
-    background-size: 1300px;
-    background-attachment: inherit;
+   background: url(river.jpg) no-repeat 50%;
+   background-size: cover;
+   background-attachment: inherit;
     padding: 275px 0;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
     text-align: center;
 }
-
 .container h2 {
     color: white;
     font-size: 45px;
     text-shadow: 2px 2px gray;
 }
 
+h2 {
+    text-transform: uppercase;
+    color: royalblue;
+}
+
 .about {
     padding: 90px 0px 488px 26px;
-    width: 76%;
+    width: 86%;
     margin: 0px auto;
     padding-right: 15px;
     padding-left: 15px;
@@ -154,9 +166,9 @@ header .navigation a:hover {
 }
 
 .about img {
-    width: 301px;
-    height: 336px;
-    border-radius: 52%;
+    width: 414px;
+    height: 365px;
+    border-radius: 11%;
     margin: 0px 70px;
 }
 
@@ -174,6 +186,7 @@ header .navigation a:hover {
     padding: 60px 0;
     background-color: #eee;
     text-align: center;
+    
 }
 
 .projects h2 {
@@ -204,12 +217,24 @@ header .navigation a:hover {
 }
 
 .skills {
-    padding: 48px 0px 0px 90px;
+    padding: 60px 120px 10px 147px;
     margin-bottom: 97px;
-    display: table;
-    table-layout: fixed;
-    width: 90%;
+    /*display: table;*/
+    /*table-layout: fixed;*/
+    width: 91%;
     text-align: center;
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    /*content: "";*/
+    /*margin-right: 15px;*/
+    /*margin-left: 15px;*/
+    padding-right: 17px;
+    padding-left: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 .skills ul {
@@ -218,35 +243,59 @@ header .navigation a:hover {
 }
 
 .skills li {
+    /*margin: 0;*/
+    /*padding: 20px 0px 20px 85px;*/
+    /*list-style: none;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: left center;*/
+    /*background-size: 40px;*/
+    
     margin: 0;
-    padding: 20px 0px 20px 84px;
+    padding: 20px 20px;
     list-style: none;
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40px;
+    text-align: left;
+    padding: 0px 4px 9px 239px;
+    margin: -65px 8px 7px 0px;
+    
 }
 
 .skills img {
-    width: 84px;
-    height: 50px;
-    margin-left: 130px;
+    /*width: 84px;*/
+    /*height: 50px;*/
+    /*margin-left: 130px;*/
+   width: 84px;
+   height: 84px;
+   /* margin-left: 130px; */
+   margin: auto;
+   text-align: center;
+   /*margin-top: 20px;*/
+   margin: 36px 747px 0px 7px;
+   text-shadow: #00a4ba 1px 1px, #00a4ba 2px 2px;
+   border-radius: 5px;
+       
 }
 
 .skills .mid-skills {
-    width: 33.33333333%;
-    border: double;
-    display: table-cell;
+      /*width: 33.33333333%;*/
+   /* border: double; */
+   /*display: table-cell;*/
+   /*border: 1px solid #ccc;*/
 }
 
 .skills .mid-skills-two {
-    width: 33.33333333%;
-    border: double;
-    display: table-cell;
-    float: left;
+    /*width: 33.33333333%;*/
+    /*border: 1px solid #ccc;*/
+    /*display: table-cell;*/
+    /*float: left;*/
 }
 
 .skills .mid-content {
-    margin: 17px 36px 58px 0px;
+    /*margin: 17px 36px 58px 0px;*/
+    margin: auto;
+    text-align: center;
 }
 
 .contact {
@@ -260,7 +309,6 @@ header .navigation a:hover {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
 
 /*footer styles */
 
@@ -285,21 +333,14 @@ header .navigation a:hover {
     height: 40px;
     margin: 18px 9px -28px 9px;
 }
-
-
 /*reposnsive */
 
-@media only screen and (max-width: 800px) {
-    header,
-    .navigation ul {
-        font-size: 9px;
-    }
+@media only screen 
+and (min-device-width : 305px) 
+and (max-device-width : 895px)  {
     .projects {
-        padding: 0px;
-        margin-top: 40px;
-    }
-    .container {
-        background-attachment: inherit;
+        padding: 26px;
+        margin-top: 50px;
     }
     .projects .first-image,
     .projects .sec-image {
@@ -307,8 +348,7 @@ header .navigation a:hover {
         padding: 0px;
     }
     .about {
-        width: 83%;
-        padding: 90px 0px 541px 0px;
+    padding: 90px 0px 510px 0px;
     }
     .about p {
         margin-bottom: 0rem;
@@ -317,24 +357,31 @@ header .navigation a:hover {
         margin-bottom: 0rem;
     }
     .about img {
-        width: 264px;
-        height: 270px;
-        border-radius: 59%;
-        margin: 0px 70px;
-    }
-    .skills {
-        margin: 50px;
-        padding: 0px;
-        width: 98%;
-        padding: 1px 0px 31px 81px;
-    }
+        width: 300px;
+        height: 300px;
+        margin: 0px 90px;
+}
+.skills{
+    width: 70%;
+    padding: 45px 17px 0px 0px    
+}
     .skills li {
-        background-position: center;
+    background-position: center;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+    text-align: left;
+    padding: 0px 4px 9px 228px;
+    margin: -49px 8px 8px -59px 
     }
     .skills .mid-content {
         margin: 15px 34px 58px 0px;
     }
     .skills .mid-skills-two {
         float: none;
+    }
+    .skills img {
+    margin: 36px 430px -38px 7px;
     }
 }
