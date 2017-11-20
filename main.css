@@ -363,7 +363,7 @@ and (max-device-width : 1030px)  {
 }
 .skills{
     width: 70%;
-    padding: 45px 17px 0px 0px    
+    padding: 55px 17px 0px 0px    
 }
     .skills li {
     background-position: center;
@@ -459,7 +459,10 @@ border-radius: 18px;
     }
 .skills{
     width: 100%;
-    padding: 11px 17px 0px 0px    
+    padding: 34px 17px 0px 0px;    
+}
+.my-skills{
+    padding-top: 40px;
 }
     .skills li {
        padding: 0px 0px 0px 161px;
