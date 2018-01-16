@@ -242,7 +242,7 @@ h2 {
     list-style: none;
 }
 
-.skills li {
+.skills .inner-content {
     /*margin: 0;*/
     /*padding: 20px 0px 20px 85px;*/
     /*list-style: none;*/
@@ -365,7 +365,7 @@ and (max-device-width : 1030px)  {
     width: 70%;
     padding: 55px 17px 0px 0px    
 }
-    .skills li {
+    .skills .inner-content{
     background-position: center;
     list-style: none;
     background-repeat: no-repeat;
@@ -464,7 +464,7 @@ border-radius: 18px;
 .my-skills{
     padding-top: 40px;
 }
-    .skills li {
+    .skills .inner-content {
        padding: 0px 0px 0px 161px;
     margin: -47px 6px 14px -65px;
     width: 384px;
