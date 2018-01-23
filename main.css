@@ -496,6 +496,7 @@ h2 {
     }
     .container{
         background-position: inherit;
+        padding: 222px 0;
     }
     .container h2{
         font-size: 21px;
@@ -555,9 +556,9 @@ h2 {
         padding-top: 40px;
     }
     .skills .inner-content {
-        padding: 0px 0px 0px 38px;
+        padding: 0px 0px 0px 0px;
         margin: 0px 560px 2px 0px;
-        width: 228px;
+        width: 212px;
     }
     .skills .inner-content p{
         font-size: 12px;
@@ -569,7 +570,7 @@ h2 {
         float: none;
     }
     .skills img {
-        margin: 13px 452px -66px -34px;
+        margin: 13px 452px -66px -70px;
         width: 62px;
         height: 57px;   
     }
