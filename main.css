@@ -509,9 +509,9 @@ h2 {
         width: 322px;
     }
     .about img {
-    width: 52%;
-    height: 183px;
-    margin: 47px 5px 25px 2px;
+        width: 52%;
+        height: 183px;
+        margin: -325px 7px 161px 45px;
     }
     .projects {
         padding: 26px;
@@ -522,27 +522,17 @@ h2 {
         height: 172px;
         padding: 0px;
     }
-    .projects img{
-       
-    }
     .about {
         padding: 33px 0px 600px 0px;
     }
     .about p {
         margin-bottom: 0rem;
         font-size: 10px;
-        width: 186px;
-    }
+        width: 154px;
+}
     .about .about-me {
         /*margin-bottom: 0rem;*/
         padding: 5px 165px 26px 3px
-    }
-    .about img{
-        width: 78%;
-        height: 129px;
-        margin: -150px 36px 0px 45px;
-        padding: 1px 5px 13px 11px;
-        border-radius: 36px;
     }
     .projects{
         font-size: 9px;
