@@ -491,6 +491,9 @@ h2 {
         font-size: 9px;
         padding-left: 0px;
     }
+    header .navigation li{
+        padding: 0px 2px;
+    }
     .container{
         background-position: inherit;
     }
@@ -516,7 +519,7 @@ h2 {
     }
     .projects .first-image,
     .projects .sec-image {
-        height: 280px;
+        height: 172px;
         padding: 0px;
     }
     .projects img{
@@ -527,19 +530,19 @@ h2 {
     }
     .about p {
         margin-bottom: 0rem;
-        font-size: 19px;
-        width: 470px;
+        font-size: 10px;
+        width: 186px;
     }
     .about .about-me {
         /*margin-bottom: 0rem;*/
         padding: 5px 165px 26px 3px
     }
     .about img{
-        width: 54%;
-        height: 231px;
-        margin: 172px 36px 0px 101px;
+        width: 78%;
+        height: 129px;
+        margin: -150px 36px 0px 45px;
         padding: 1px 5px 13px 11px;
-        border-radius: 18px;
+        border-radius: 36px;
     }
     .projects{
         font-size: 9px;
@@ -547,23 +550,23 @@ h2 {
     .projects ul{
         width: 99%;
     }
-    .projects p{
-        font-size: 19px;
+    .projects p {
+        font-size: 9px;
     }
     .skills{
         width: 62%;
         padding: 30px 74px 6px 39px;   
     }
     .skills h2{
-            font-size: 42px;
+            font-size: 18px;
     }
     .my-skills{
         padding-top: 40px;
     }
     .skills .inner-content {
-        padding: 31px 0px 0px 1px;
+        padding: 0px 0px 0px 38px;
         margin: 0px 560px 2px 0px;
-        width: 710px;
+        width: 228px;
     }
     .skills .inner-content p{
         font-size: 19px;
@@ -575,7 +578,9 @@ h2 {
         float: none;
     }
     .skills img {
-        margin: 83px 481px -112px -131px
+        margin: 13px 452px -66px -34px;
+        width: 62px;
+        height: 57px;   
     }
     .contact{
         padding: 36px;
