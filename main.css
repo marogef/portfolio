@@ -509,9 +509,10 @@ h2 {
         width: 322px;
     }
     .about img {
-        width: 52%;
-        height: 183px;
+        width: 75%;
+        height: 166px;
         margin: -325px 7px 161px 45px;
+        border-radius: 46px;
     }
     .projects {
         padding: 26px;
@@ -559,7 +560,7 @@ h2 {
         width: 228px;
     }
     .skills .inner-content p{
-        font-size: 19px;
+        font-size: 14px;
     }
     .skills .mid-content {
         margin: 1px 5px 8px 0px;
