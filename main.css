@@ -134,21 +134,28 @@ color: white;
    background: url(river.jpg) no-repeat 50%;
    background-size: cover;
    background-attachment: inherit;
-    padding: 275px 0;
+    padding: 215px 0;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
     text-align: center;
 }
+.container h1{
+    color: white;
+    font-size: 35px;
+    text-shadow: 2px 2px gray;
+    font-weight: bold
+}
 .container h2 {
     color: white;
-    font-size: 45px;
+    font-size: 30px;
     text-shadow: 2px 2px gray;
+    font-weight: bold
 }
 
-h2 {
-    text-transform: uppercase;
-    color: royalblue;
-}
+/*h2 {*/
+/*    text-transform: uppercase;*/
+/*    color: royalblue;*/
+/*}*/
 
 .about {
     padding: 90px 0px 488px 26px;
@@ -159,6 +166,11 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
+
+}
+.about h2{
+    text-transform: uppercase;
+    color: royalblue;
 }
 
 .about p {
@@ -192,6 +204,8 @@ h2 {
 .projects h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
+        text-transform: uppercase;
+    color: royalblue;
 }
 
 .projects ul {
@@ -229,7 +243,14 @@ h2 {
     padding-left: 23px;
     margin-right: auto;
     margin-left: auto;
+    /*max-width: 80%;*/
     
+}
+.skills h2{
+    text-transform: uppercase;
+    color: royalblue;
+    text-transform: uppercase;
+    color: royalblue;
 }
 
 .skills .inner-content 
@@ -288,6 +309,8 @@ h2 {
 .contact h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: royalblue;
 }
 
 /*footer styles */
@@ -313,6 +336,8 @@ h2 {
     height: 40px;
     margin: 18px 9px -28px 9px;
 }
+
+
 
 /*reposnsive */
 @media only screen and (max-device-width : 1024px)  {
@@ -341,7 +366,8 @@ h2 {
     }
     .skills{
         width: 70%;
-        padding: 51px 40px 0px 0px;    
+        padding: 51px 40px 0px 0px;   
+        max-width: 80%;
     }
     .skills .inner-content{
         background-position: center;
