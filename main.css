@@ -337,9 +337,39 @@ color: white;
     margin: 18px 9px -28px 9px;
 }
 
-
-
 /*reposnsive */
+@media only screen and (max-device-width : 1920px)  {
+.about{
+    width: 62%;
+}
+
+.projects{
+    width: 90%;
+}
+.skills{
+    width: 59%;
+}
+}
+
+@media only screen and (max-device-width : 1680px)  {
+.skills{
+    width: 67%;
+}
+}
+
+@media only screen and (max-device-width : 1440px)  {
+.skills{
+    width: 80%;
+}
+}
+
+
+@media only screen and (max-device-width : 1367px)  {
+.skills{
+    width: 83%;
+}
+}
+
 @media only screen and (max-device-width : 1024px)  {
     .projects {
         padding: 26px;
@@ -365,7 +395,7 @@ color: white;
         margin: 0px 90px;
     }
     .skills{
-        width: 70%;
+        width: 89%;
         padding: 51px 40px 0px 0px;   
         max-width: 80%;
     }
