@@ -208,10 +208,10 @@ color: white;
     color: royalblue;
 }
 
-.projects ul {
-    width: 80%;
-    margin: 0 auto;
-}
+/*.projects ul {*/
+/*    width: 80%;*/
+/*    margin: 0 auto;*/
+/*}*/
 
 .projects li {
     width: 46%;
@@ -380,7 +380,7 @@ color: white;
     width: 83%;
 }
 .skills img {
-    margin: 36px 819px 0px 7px;
+    margin: 36px 737px 0px 7px;
 }
 }
 @media only screen and (max-device-width: 1280px) {
@@ -399,9 +399,15 @@ color: white;
     width: 112%;
 } 
 .skills img {
-    margin: 36px 515px 0px 7px;
+    margin: 36px 746px 0px 7px;
 }
 }
+@media only screen and (max-device-width: 960px){
+    .about img {
+    margin: 0px 17px;
+}
+}
+
 @media only screen and (max-device-width: 768px) {
 .about{
     Width: 82%;
@@ -472,3 +478,5 @@ header .navigation{
     width: 36px;
 }
 }
+
+@media only screen and (max-device-width: 420px) {
