@@ -347,17 +347,30 @@ color: white;
 .skills img{
     margin: 36px 1303px 0px 7px;
 }
+.projects {
+    padding: 41px 198px;
 }
-
+}
 @media only screen and (max-device-width : 1680px)  {
 .skills{
     width: 72%;
 }
+.skills img {
+    margin: 36px 1090px 0px 7px;
 }
+}
+@media only screen and (max-device-width : 1680px)  {
 
+.skills img {
+    margin: 36px 1023px 0px 7px;
+}
+}
 @media only screen and (max-device-width : 1440px)  {
 .skills{
     width: 80%;
+}
+.skills img {
+    margin: 36px 878px 0px 7px;
 }
 }
 
@@ -366,16 +379,28 @@ color: white;
 .skills{
     width: 83%;
 }
+.skills img {
+    margin: 36px 819px 0px 7px;
+}
 }
 @media only screen and (max-device-width: 1280px) {
 .skills {
     width: 88%;
 }
+.skills img {
+    margin: 36px 753px 0px 7px;
+}
 }
 @media only screen and (max-device-width: 1024px){
+    .about{
+        height: 700px;
+    }
 .skills {
     width: 112%;
 } 
+.skills img {
+    margin: 36px 515px 0px 7px;
+}
 }
 @media only screen and (max-device-width: 768px) {
 .about{
