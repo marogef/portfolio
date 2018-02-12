@@ -337,6 +337,33 @@ color: white;
     margin: 18px 9px -28px 9px;
 }
 
+@media only screen and (max-device-width : 1920px)  {
+.about{
+    width: 62%;
+}
+.skills{
+    width: 59%;
+}
+}
+
+@media only screen and (max-device-width : 1680px)  {
+.skills{
+    width: 67%;
+}
+}
+
+@media only screen and (max-device-width : 1440px)  {
+.skills{
+    width: 80%;
+}
+}
+
+
+@media only screen and (max-device-width : 1367px)  {
+.skills{
+    width: 83%;
+}
+}
 @media only screen and (max-device-width: 768px) {
 .about{
     Width: 82%;
@@ -402,5 +429,8 @@ header .navigation{
 }
 .contact p{
     font-size: 12px;
+}
+.contact .social-icon {
+    width: 36px;
 }
 }
