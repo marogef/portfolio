@@ -348,13 +348,13 @@ color: white;
 
 @media only screen and (max-device-width : 1680px)  {
 .skills{
-    width: 60%;
+    width: 72%;
 }
 }
 
 @media only screen and (max-device-width : 1440px)  {
 .skills{
-    width: 76%;
+    width: 80%;
 }
 }
 
