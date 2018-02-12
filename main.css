@@ -344,6 +344,9 @@ color: white;
 .skills{
     width: 59%;
 }
+.skills img{
+    margin: 36px 1303px 0px 7px;
+}
 }
 
 @media only screen and (max-device-width : 1680px)  {
