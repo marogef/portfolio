@@ -479,4 +479,26 @@ header .navigation{
 }
 }
 
-@media only screen and (max-device-width: 420px) {
+@media (max-width:415px) and (min-width:360px) {
+    .about {
+    padding: 120px 0px 1112px 26px;
+}
+
+    .projects {
+    padding: 41px 14px;
+}
+
+}
+@media only screen and (max-device-width: 320px) {
+.about {
+    padding: 120px 0px 1240px 26px;
+}
+.projects {
+    padding: 41px 13px;
+}
+.contact .social-icon {
+    width: 20px;
+}
+
+    
+}
