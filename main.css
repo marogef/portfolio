@@ -381,7 +381,8 @@ header .navigation{
 }
 
 .about{
-    padding: 120px 0px 723px 26px;
+    padding: 120px 0px 1029px 26px;
+    
 }
 
 .about img
@@ -390,5 +391,16 @@ header .navigation{
     height: 129px;
     border-radius: 11%;
     margin: 213px 19px;
+}
+.skills {
+    width: 100%;
+    
+}
+.skills .inner-content{
+    padding: 0px 4px 9px 112px;
+    margin: -90px 1px 7px 0px;
+}
+.contact p{
+    font-size: 12px;
 }
 }
