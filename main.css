@@ -174,7 +174,8 @@ color: white;
 }
 
 .about p {
-    margin-bottom: 1rem;
+    line-height: 28px;
+    margin-bottom: 35px;
 }
 
 .about img {
