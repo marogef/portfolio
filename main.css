@@ -100,10 +100,6 @@ header .navigation {
 header .navigation ul {
     list-style: none;
 }
-/*header .navigation a:link{*/
-/*    color: white;*/
-/*}*/
-
 header .navigation li {
     display: inline-block;
     padding: 3px 10px;
@@ -152,11 +148,6 @@ color: white;
     font-weight: bold
 }
 
-/*h2 {*/
-/*    text-transform: uppercase;*/
-/*    color: royalblue;*/
-/*}*/
-
 .about-me{
     padding-right: 15px;
     padding-left: 15px;
@@ -188,9 +179,7 @@ color: white;
     padding: 20px 30px 0 30px;
  
 }
-   /* width: 50%;*/
-    /*float: right;*/
-    
+
 .about .about-me {
     width: 62%;
     float: left;
@@ -226,10 +215,6 @@ color: white;
     color: royalblue;
 }
 
-/*.projects ul {*/
-/*    width: 80%;*/
-/*    margin: 0 auto;*/
-/*}*/
 
 .projects li {
     width: 46%;
@@ -253,19 +238,10 @@ color: white;
     margin-bottom: 97px;
       text-align: left;
     list-style: none;
-    /*display: table;*/
-    /*table-layout: fixed;*/
-    /*width: 100%;*/
     text-align: center;
-    /*padding-right: 17px;*/
-    /*padding-left: 23px;*/
-    /*margin-right: auto;*/
-    /*margin-left: auto;*/
-    /*max-width: 80%;*/
-        margin-right: -15px;
+     margin-right: -15px;
     margin-left: -15px;
-    /*box-sizing: border-box;*/
-        display: block;
+    display: block;
 }
     
 
@@ -299,17 +275,11 @@ text-decoration: none;
 }
 
 .skills .mid-skills {
-    /*position: relative;*/
-    /*min-height: 1px;*/
-    /*padding-right: 15px;*/
-    /*padding-left: 15px;*/
-        /*padding: 80px 0;*/
-        
+
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    /*width: 93%;*/
 
 }
 
@@ -318,15 +288,10 @@ text-decoration: none;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-            /*padding: 80px 0;*/
 
 }
 
 .skills .mid-content {
-    /*margin: 17px 36px 58px 0px;*/
-    /*margin: auto;*/
-    /*text-align: center;*/
-        /*margin: 0px 0 70px 0;*/
         padding: 40px 0;
 
 }
@@ -408,13 +373,19 @@ header .navigation{
     width: 100%;
     padding-left: 0px;
 }
+.skills{
+   padding: 67px 71px 10px 79px;
+}
 .skills .mid-skills,
 .skills .mid-skills-two,
 .skills h2 
 {
-    width: 125%;
+    width: 87%;
 }
-
+.skills .inner-content p,
+.skills .inner-content p{
+    width: 108%;
+}
  .about {
     padding: 70px 0;
   }
@@ -423,6 +394,23 @@ header .navigation{
     width: 95%;
 }
 
+}
+
+@media only screen and (max-width: 320px){
+
+.skills{
+    padding: 67px 159px 10px 9px;
+}
+.skills .mid-skills,
+.skills .mid-skills-two,
+.skills h2 
+{
+    width: 193%;
+}
+.skills .inner-content p,
+.skills .inner-content p{
+    width: 103%;
+}
 }
 
 @media only screen and (max-width: 996px){
