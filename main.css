@@ -174,7 +174,7 @@ color: white;
 }
 
 .about .my-pic {
-    padding: 20px 30px 0 30px;
+    padding: 20px 30px 0 12px;
  
 }
 
@@ -215,7 +215,7 @@ color: white;
 
 
 .projects li {
-    width: 46%;
+    width: 98%;
     margin-left: 1%;
     margin-right: 1%;
     margin-top: 1rem;
@@ -358,8 +358,15 @@ text-decoration: none;
     width: 50%;
  }
  .about .my-pic img{
-     max-width: 80%;
+     /*max-width: 80%;*/
+     max-width: 100%;
+
  }
+/* .projects .first-image, .projects .sec-image {*/
+/*    max-width: 100%;*/
+/*     display: block;*/
+/*    height: auto;*/
+/*}*/
 }
 
 
@@ -416,8 +423,10 @@ header .navigation{
     width: 70%;
 }
  .about .my-pic img{
-     width: 50%;
+     /*width: 50%;*/
+     width: 100%;
  }
+
 
 }
 
@@ -431,7 +440,8 @@ header .navigation{
     width: 50%;
 }
  .about .my-pic img{
-     max-width: 40%;
+     /*max-width: 40%;*/
+     max-width: 100%;
  }
 
 
@@ -445,6 +455,7 @@ header .navigation{
     width: 90%;
  }
  .about .my-pic img{
-     max-width: 60%;
+     /*max-width: 60%;*/
+     max-width: 100%;
  }
 }
