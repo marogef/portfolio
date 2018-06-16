@@ -92,7 +92,6 @@ header h1 {
 
 header .navigation {
     display: inline-block;
-    width: 49%;
     text-align: right;
     vertical-align: top;
     margin-top: 7px;
@@ -448,7 +447,7 @@ header .navigation a:active {
         display: block;
         width: 100%;
         height: auto;
-        margin-bottom:20px;
+        margin-bottom: 20px;
     }
 }
 
@@ -479,8 +478,10 @@ header .navigation a:active {
     .about {
         padding: 70px 0px 125px 0px;
     }
-
-
+    header .navigation li {
+        display: inline-block;
+        padding: 3px 3px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -508,6 +509,8 @@ header .navigation a:active {
         /*width: 50%;*/
         width: 100%;
     }
-
+    header .navigation li {
+        font-size: 85%;
+    }
 
 }
