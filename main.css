@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
     box-sizing: border-box;
     /*reset Chrome user agent styles*/
     -webkit-margin-before: 0px;
@@ -13,33 +12,6 @@
     -webkit-padding-after: 0px;
     -webkit-padding-start: 0px;
     -webkit-padding-end: 0px;
-    /*reset Firefox user agent styles*/
-    -moz-margin-before: 0px;
-    -moz-margin-after: 0px;
-    -moz-margin-start: 0px;
-    -moz-margin-end: 0px;
-    -moz-padding-before: 0px;
-    -moz-padding-after: 0px;
-    -moz-padding-start: 0px;
-    -moz-padding-end: 0px;
-    /*reset Internet Explorer user agent styles*/
-    -ms-margin-before: 0px;
-    -ms-margin-after: 0px;
-    -ms-margin-start: 0px;
-    -ms-margin-end: 0px;
-    -ms-padding-before: 0px;
-    -ms-padding-after: 0px;
-    -ms-padding-start: 0px;
-    -ms-padding-end: 0px;
-    /*reset Opera user agent styles*/
-    -o-margin-before: 0px;
-    -o-margin-after: 0px;
-    -o-margin-start: 0px;
-    -o-margin-end: 0px;
-    -o-padding-before: 0px;
-    -o-padding-after: 0px;
-    -o-padding-start: 0px;
-    -o-padding-end: 0px;
 }
 
 
@@ -59,6 +31,15 @@ body {
     background-color: #fff;
     width: 100%;
     overflow-x: hidden;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    height: auto;
 }
 
 
@@ -81,7 +62,7 @@ header {
     left: 0;
 }
 
-header h1  {
+header h1 {
     text-align: left;
     display: inline-block;
     width: 49%;
@@ -89,15 +70,18 @@ header h1  {
     color: white;
     padding-left: 18px;
 }
-header h1 a{
+
+header h1 a {
     color: #eee;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
 }
-header h1 a:hover{
+
+header h1 a:hover {
     text-decoration: underline;
     color: white;
 }
+
 header .navigation {
     display: inline-block;
     text-align: right;
@@ -137,6 +121,7 @@ header .navigation a:active {
     color: #eee;
 }
 
+/* content styles*/
 
 .container {
     background: url(river.jpg) no-repeat 50%;
@@ -162,14 +147,7 @@ header .navigation a:active {
     font-weight: bold
 }
 
-.wrapper {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
-    clear: both;
-    display: block;
-    height: auto;
-}
+
 
 .about-me {
     padding-right: 15px;
@@ -216,20 +194,20 @@ header .navigation a:active {
 
 }
 
-.works {
+.projects .works {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.works:before {
+.projects .works:before {
     display: table;
     content: " ";
     box-sizing: border-box;
 }
 
-.works:after {
+.projects .works:after {
     clear: both;
     box-sizing: border-box;
 }
@@ -277,8 +255,8 @@ header .navigation a:active {
     color: black;
 }
 
-.projects .first-image,
-.projects .sec-image {
+.projects li .first-image,
+.projects li .sec-image {
     border-radius: 10px;
     max-width: 100%;
     height: 250px;
@@ -295,16 +273,11 @@ header .navigation a:active {
 
 .skills {
     padding: 60px 20px;
-    /* margin-bottom: 97px; */
     text-align: left;
     list-style: none;
     text-align: center;
-    /* margin-right: -15px; */
-    /* margin-left: -15px; */
     display: block;
     width: 100%;
-    /* margin-left: 7%; */
-    /* margin-right: 1%; */
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: block;
@@ -342,23 +315,19 @@ header .navigation a:active {
 }
 
 .skills .mid-skills {
-
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-
 }
 
 .skills .mid-skills-two {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-
 }
 
 .skills .mid-content {
     padding: 40px 0;
-
 }
 
 .contact {
@@ -388,25 +357,12 @@ header .navigation a:active {
     margin-left: auto;
     display: table;
     content: " ";
-
 }
 
 .contact h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: white;
-}
-
-/*footer styles */
-
-.footer {
-    padding: 25px 0;
-    color: #bbc;
-    font-size: 0.75em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    text-align: center;
 }
 
 .contact #logo {
@@ -421,20 +377,27 @@ header .navigation a:active {
     margin: 18px 9px -28px 9px;
 }
 
+/*footer styles */
+
+.footer {
+    padding: 25px 0;
+    color: #bbc;
+    font-size: 0.75em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+}
+
+/*media queries*/
+
 @media only screen and (max-width: 1200px) {
     .about .about-me {
         width: 50%;
     }
     .about .my-pic img {
-        /*max-width: 80%;*/
         max-width: 100%;
-
     }
-    /* .projects .first-image, .projects .sec-image {*/
-    /*    max-width: 100%;*/
-    /*     display: block;*/
-    /*    height: auto;*/
-    /*}*/
 }
 
 @media only screen and (max-width: 996px) {
@@ -442,7 +405,6 @@ header .navigation a:active {
         width: 50%;
     }
     .about .my-pic img {
-        /*max-width: 40%;*/
         max-width: 100%;
     }
     .projects .first-image,
@@ -474,7 +436,6 @@ header .navigation a:active {
         width: 100%;
         padding-left: 0px;
     }
-
     .skills .inner-content {
         margin-top: 0px;
     }
@@ -488,7 +449,9 @@ header .navigation a:active {
 }
 
 @media only screen and (max-width: 320px) {
-
+    header .navigation li {
+        font-size: 85%;
+    }
     .skills {
         padding: 67px 159px 10px 9px;
     }
@@ -504,16 +467,10 @@ header .navigation a:active {
     .about {
         padding: 70px 0px 125px 0px;
     }
-
     .about .about-me {
         width: 70%;
     }
     .about .my-pic img {
-        /*width: 50%;*/
         width: 100%;
     }
-    header .navigation li {
-        font-size: 85%;
-    }
-
 }
