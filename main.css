@@ -95,6 +95,7 @@ header .navigation {
     text-align: right;
     vertical-align: top;
     margin-top: 7px;
+    float: right;
 }
 
 header .navigation ul {
