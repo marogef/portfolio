@@ -241,7 +241,7 @@ header .navigation a:active {
 }
 
 .projects li .button-wrapper a {
-    display: inline-block;
+/*    display: inline-block;*/
     width: 48%;
     max-width: 150px;
     color: royalblue;
